@@ -1,0 +1,26 @@
+#mainNavbar{
+	background:#8B8C91;
+	border: 2px solid black;
+	font-family: 'Comic Neue', cursive;
+	font-weight: 700;
+}
+#nav-list a {
+  text-align: center;
+  border: 1px solid black;
+  background: white;
+}
+h1{
+	font-family: 'Comic Neue', cursive;
+	font-weight:bold;
+}
+.text-center{
+	font-weight: 700;
+}
+.blurb{
+	background:#8B8C91;
+	font-family: 'Comic Neue', cursive;
+	font-weight: 400;
+}
+.blurb a{
+	color:#092FEE;
+}
