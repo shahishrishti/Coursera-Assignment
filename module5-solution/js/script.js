@@ -74,14 +74,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // and process them: choose random category, retrieve home HTML snippet, insert that
 // random category into the home HTML snippet, and then insert that snippet into our
 // main page (index.html).
-showLoading("#main-content");
-$ajaxUtils.sendGetRequest(
-  homeHtmlUrl,
-  function(responseText){
-    document.querySelector("#main-content")
-      .innerHTML=responseText;
-  },
-  false);
 
 // TODO: STEP 1: Substitute [...] below with the *value* of the function buildAndShowHomeHTML,
 // so it can be called when server responds with the categories data.
